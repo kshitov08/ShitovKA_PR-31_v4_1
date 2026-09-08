@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ShitovKA_PR-31_04</string>
+    <string name="text1">Геометрический калькулятор</string>
+    <string name="text2">Введите логин</string>
+    <string name="text3">Введите пароль</string>
+    <string name="text4">Регистрация</string>
+    <string name="text5">Выбор фигуры</string>
+    <string name="text6">Выберите фигуру</string>
+    <string name="text7">Введите данные для расчета</string>
+    <string name="text8">Введите значение</string>
+    <string name="text9">Выполнить расчет</string>
+    <string name="text10">Результат вычисления</string>
+    <string name="text11">Название выбранной фигуры</string>
+    <string name="text12">Результат</string>
+</resources>
