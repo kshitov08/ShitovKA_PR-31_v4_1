@@ -28,8 +28,8 @@ class LoginActivity : AppCompatActivity() {
 
             //Проверка логина и пароля
             if (login == "ects" && password == "ects2023") {
-                val intent = Intent(this, SecondActivity::class.java)
-                startActivity(intent)
+                startActivity(Intent(this, SecondActivity::class.java))
+                } else {
                 Toast.makeText(this, "Неверный логин или пароль", Toast.LENGTH_SHORT).show()
             }
         }
