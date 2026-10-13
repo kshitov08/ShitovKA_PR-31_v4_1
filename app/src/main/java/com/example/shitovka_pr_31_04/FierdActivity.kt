@@ -15,19 +15,15 @@ class FierdActivity : AppCompatActivity() {
         val editTextResult = findViewById<EditText>(R.id.editTextResult)
         val buttonRegister = findViewById<Button>(R.id.buttonRegister)
 
-        // Получаем данные из Intent
         val shapeName = intent.getStringExtra("SHAPE_NAME") ?: "Фигура"
         val result = intent.getStringExtra("RESULT") ?: "0.0"
 
-        // Отображаем данные в полях
         editTextName.setText(shapeName)
         editTextResult.setText(result)
 
-        // Делаем поля недоступными для редактирования (только для чтения)
         editTextName.isEnabled = false
         editTextResult.isEnabled = false
 
-        // Кнопка "Регистрация" - закрываем Activity и возвращаемся на второй экран
         buttonRegister.setOnClickListener {
             finish()
         }
