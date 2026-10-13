@@ -14,7 +14,7 @@ import kotlin.math.PI
 
 class SecondActivity : AppCompatActivity() {
 
-    private var selectedShape = "Круг"  // Для хранения выбранной фигуры
+    private var selectedShape = "Круг" 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -66,7 +66,6 @@ class SecondActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            // Расчет результата
             val result = if (spinner.selectedItemPosition == 0) {
                 value / (2 * PI)
             } else {
